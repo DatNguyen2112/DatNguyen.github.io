@@ -1,0 +1,542 @@
+
+.Place_to_play_and_study_title_mobile{
+    display: none;
+}
+
+.Breaking_news_content_mobile{
+    display: none;
+}
+
+.Search_icon{
+    position: relative;
+}
+
+.Nav_icon{
+    position: relative;
+}
+
+.Nav_mb{
+   
+    display: none;
+}
+
+.icon_logo{
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    color: #fff;
+}
+
+
+.Search_item{
+    display: none;
+}
+
+.Overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0, 0.3);
+    z-index: 99;
+    display: none;
+    animation: Overlay linear .3s;
+}
+
+.Overlay_menu{
+    position: fixed;
+    background-color: #d91d90;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 1200px;
+    max-width: 100%;
+    z-index: 999;
+    animation: FadeIn linear .6s;
+    transition: animation linear .3s;
+    display: none;
+}
+
+@keyframes FadeIn {
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes FadeOut {
+    from{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(-100%);
+        opacity: 1;
+    }
+}
+
+@keyframes Overlay {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.Overlay_menu_detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Icon{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.Menu_logo{
+    width: 70px;
+}
+
+.Menu_close,
+.Menu_search{
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.Overlay_nav{
+    text-align: center;
+}
+
+.Overlay_navs{
+    padding-bottom: 41px;
+    padding-top: 120px;
+}
+.Overlay_navs_detail{
+    display: block;
+    padding-top: 34px;
+}
+.Overlay_navs_item{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'iCiel Pony';
+}
+
+.Overlay_navs_item:hover{
+    color: #f981ca;
+}
+
+.Footer_entertaiment {
+    
+    position: absolute;
+    bottom: 109px;
+    right: 15px;
+}
+
+.visibile_pc{
+    display: none;
+}
+
+.Phone_img, .Zalo_img, .Mess_img{
+    width: 40px;
+}
+
+.Viber{
+    position: relative;
+}
+
+.Viber_tt{
+    position: absolute;
+    top: 9px;
+    left: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.Upgrade{
+    position: relative;
+}
+
+.Upgrade_icon{
+    position: absolute;
+    top: 14px;
+    left: 13px;
+
+}
+
+@media (max-width : 1024px){
+    #main{
+        overflow: hidden;
+    }
+
+    .Header{
+        height: 32px;
+    }
+    
+    .Hotline_and_email,
+    .form_search{
+        display: none;
+    }
+
+    .Header_nav{
+        column-gap: 160px;
+        padding: 17px 24px;
+        justify-content:space-between;
+        
+    }
+
+    .Nav_mb{
+        display: block;
+    }
+
+    .Search_item{
+        display: flex;
+        position: relative;
+        align-items: center;
+        column-gap: 15px;
+    }
+
+    .Search_input{
+        display: none;
+    }
+
+    .Header_nav_background{
+        background-position: -325px;
+        height: 140px;
+        background-size: cover;
+        z-index: 9999;
+        
+    }
+
+    .Header_nav_item{
+        display: none;
+    }
+
+    .Picture{
+        background-position: -1040px;
+    }
+
+    
+
+    .Picture_text{
+        display: none;
+    }
+
+    .Picture_right_left{
+        display: none;
+    }
+
+    .Another_picture{
+        background-position: center;
+    }
+
+    .Another_description{
+        margin-left: inherit;
+        margin-right: inherit;
+    }
+
+    .visibile{
+        display: none;
+    }
+
+    .Welcome{
+        padding-top: 36px;
+        padding-bottom: 43px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Another_item{
+        padding-left: inherit;
+    }
+
+    
+
+    .Presidion_img_1{
+        left: 140px;
+        width: 92px;
+        top: -50px;
+    }
+
+    .Presidion_img_2{
+        left: 170px;
+        width: 38px;
+        top: -26px;
+    }
+
+    
+
+    .Presidion_detail{
+        bottom: 0;
+    }
+
+    .Presidion_title{
+        padding-left: 52px;
+        padding-right: 52px;
+    }
+
+    .Presidion_para{
+        padding-left:42px;
+        padding-right: 42px;
+    }
+
+    .Place_to_play_and_study{
+        margin-top: -70px;
+    }
+
+    .Fly{
+        display: none;
+    }
+
+    .Rainbow{
+        display: none;
+    }
+
+    .Place_photo_mb{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+    }
+
+    .Place_to_play_and_study_content{
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .Place_to_play_and_study_para{
+        margin-right: inherit;
+        margin-left: inherit;
+    }
+
+    .Place_para{
+        text-align: center;
+    }
+
+    .Place_to_play_and_study_title{
+        display: none;
+    }
+
+    .Place_to_play_and_study_title_mobile{
+        display: block;
+        padding-top: 90px;
+    }
+
+    .Place_img_3{
+        width: 170px;
+    }
+
+    .Place_rows{
+        text-align: center;
+    }
+
+    .Breaking_news{
+        margin-top: 61px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Breaking_news_content_mobile{
+        display: block;
+        
+    }
+
+    .Breaking_news_mb{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 14px;
+    }
+
+    .Breaking_news_title{
+        text-align: center;
+        padding-top: 13px;
+    }
+
+    .Breaking_news_content{
+        display: none;
+    }
+
+    .Breaking_news_para{
+        margin-left: inherit;
+        margin-right: inherit;
+        margin-top: 13px;
+    }
+
+    .Background_img{
+        width: 117%;
+    }
+
+    .Option_title{
+        font-size: 21px;
+    }
+
+    .News_picture_1{
+        left: 16px;
+        width: 107%;
+        top: -140px;
+    }
+
+    .Circle_picture{
+        top: 46px;
+    }
+
+    .Around_picture{
+        top: 50px;
+    }
+
+    .Date{
+        top: 59px;
+    }
+
+    .Option_content{
+        bottom: 30px;
+    }
+
+    .Footer{
+        margin-top: 15px;
+    }
+
+    .Footer_enter{
+        flex-direction: column-reverse;
+    }
+
+    .Footer_img_2{
+        left: 104px;
+        top: 18px;
+    }
+
+    .Sign_up{
+        left: 50px;
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+
+    .Contact{
+        margin-top: 30px;
+    }
+
+    .Address_and_contact{
+        flex-direction: column;
+
+    }
+    
+
+    .Contact_title,
+    .About_us{
+        display: none;
+    }
+
+    .Footer_contact{
+        padding-right: 160px;
+        padding-top: 22px;
+    }
+
+    .Footer_text{
+        margin-top: 31px;
+        padding-left: 22px;
+        padding-right: 22px;
+        text-align: center;
+        border: 1px solid #ccc;
+    }
+
+    .Footer_para{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Footer_input{
+        margin-top: 45px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Contact_img{
+        width: 100%;
+    }
+
+    .Footer_entertaiment{
+        display: block;
+    }
+}
+
+@media only screen and (min-width : 1920px){
+    .Picture_text{
+        padding-left: 320px;
+        padding-top: 118px;
+    }
+
+    .Picture_right_left{
+        padding-left: 62px;
+        padding-right: 62px;
+    }
+
+    .Fly_img{
+        left: inherit;
+    }
+
+    .Rainbow{
+        right: 0;
+    }
+
+    .Date{
+        top: 96px;
+    }
+
+    .Footer_img_1 {
+        position: absolute;
+        top: 14px;
+        left: 473px;
+    }
+    .Footer_img_2 {
+        position: absolute;
+        top: -16px;
+        left: 858px;
+    }
+    .Footer_img_3 {
+        position: absolute;
+        top: 30px;
+        left: 1404px;
+    }
+    .Footer_img_4 {
+        position: absolute;
+        top: 15px;
+        left: 1461px;
+    }
+    
+    .Footer_img_5{
+        position: absolute;
+        top: 28px;
+        left: 117px;
+        display: block;
+    }
+
+    .Doll_img_1{
+        position: absolute;
+        top: 288px;
+        left: 2px;
+        display: block;
+    }
+    
+    .Doll_img_2{
+        position: absolute;
+        top: 280px;
+        right: 90px;
+        display: block;
+    }
+}
